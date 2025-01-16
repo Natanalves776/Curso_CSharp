@@ -5,6 +5,10 @@
         static void Main(string[] args)
         {
             int num;
+            Console.WriteLine("Digite um número para ver a tabuada:");
+
+            num = Convert.ToInt32(Console.ReadLine());
+
 
             Console.WriteLine("{0} x 1 =  {1}", num, num * 1);
             Console.WriteLine("{0} x 2 =  {1}", num, num * 2);
