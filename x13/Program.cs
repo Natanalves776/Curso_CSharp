@@ -21,15 +21,27 @@ namespace x13
 
 
             {
-                Console.WriteLine(" os valores informados forman um triangulo ");
+                Console.WriteLine("os valores informados forman um triangulo");
+                if ((ladoA == ladoB) && (ladoB == ladoC))
+                {
+                    Console.WriteLine(" e ele é um triangulo equilatero");
+                }
+                else if ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB == ladoC))
+
+                {
+                    Console.WriteLine(" os valores informados forman um isosceles ");
+                }
+                else
+                {
+                    Console.WriteLine(" os valores informados forman um escaleno ");
+                }
+
+
+
             }
-
-
-
-
             else
             {
-                Console.WriteLine("os valores informados não foram um trinangulo");
+                Console.WriteLine("os valores informados não forama um triangulo");
             }
 
         }
