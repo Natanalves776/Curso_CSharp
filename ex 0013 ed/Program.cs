@@ -12,7 +12,7 @@
             {
                 if (i % 3 == 0)
                     soma += i;
-                cont++;
+                    cont++;
             }
 
             Console.WriteLine("a soma dos  {0} valores solicitados é {1}", cont, soma);
