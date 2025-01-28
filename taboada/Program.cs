@@ -1,4 +1,5 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace taboada
 {
@@ -15,7 +16,8 @@ namespace taboada
 
             {
 
-                Console.WriteLine(" {0} x {1} = {2} ", numero, i, numero * i);
+                Console.WriteLine("{0} x {1} = {2} ", numero, i, numero * i);
+                
 
             }
             
